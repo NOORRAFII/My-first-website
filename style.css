@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+  }
+  p {
+    color: #02fc24;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+  }
+  h1 {
+    color: rgb(224, 7, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  .murgikhan {
+    border: 3px solid rgb(248, 247, 247);
+    border-radius: 2px;
+    width: 450px;
+    height: 200px;
+    margin: 18px;
+    padding: 15px;
+    display: inline-block;
+  }
