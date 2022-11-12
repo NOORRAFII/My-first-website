@@ -31,7 +31,7 @@ body {
   font-size: 20px;
  }
 .gunda:visited{
-  color: #02fc24;
+  color: #f2f7f3;
 }
 .nani:focus {
   color: rgb(243, 235, 235);
@@ -48,6 +48,13 @@ img::after {
   size: 30px;
   margin-left: 20px;
   align-items: center;
+  text-decoration: none;
+  background-color:rgb(224, 7, 80);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-image: linear-gradient(2deg, rgb(207, 127, 165), rgb(224, 7, 80));
+  
 }
 .abc {
   text-align: left;
