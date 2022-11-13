@@ -73,3 +73,17 @@ img::after {
 p::after {
   content: "☢️" ;
 }
+.vex {
+  text-align: center;
+}
+.blockvideo{
+  display:inline-block;
+}
+.video1 {
+  width: 600px;
+  border-bottom-right-radius: 100px solid red;
+}
+.video2{
+  width: 600px;
+  margin-left: 70px;
+}
