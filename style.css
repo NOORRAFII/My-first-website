@@ -24,12 +24,7 @@ body {
     width: 150px;
     
   }
- .nani:focus {
-  font-weight: 700;
-  color:red;
-  width: 200px;
-  font-size: 20px;
- }
+ 
 .gunda:visited{
   color: #f2f7f3;
 }
@@ -88,7 +83,7 @@ p::after {
 }
 .video3{
   margin-left: 120px;
-  margin-bottom:;
+  
 }
 .a {
   text-align: center;
@@ -105,3 +100,17 @@ p::after {
   margin-right: 500px;
   border-radius: 20px;
 }
+.box1 {
+  width: 500px;
+  height: 200px;
+  border: 5px solid white;
+  overflow: scroll; 
+  overflow: scroll;
+}
+.box2 {
+  width: 500px;
+  height: 200px;
+  border: 5px solid white;
+  overflow: hidden;
+}
+
