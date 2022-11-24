@@ -11,5 +11,28 @@ body {
     border: 1px solid rgb(255, 251, 252);
     border-radius: 10px;
     box-shadow: 10px 10px 40px rgb(247, 246, 246);
-    
 }
+.baroption{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bar{
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+}
+.search-bar{
+    margin-left: 650px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+
+

@@ -1,4 +1,33 @@
-.section {
-  border: 8px solid white;
-  border-radius: 5px;
+.photo img{
+    width: 400px;
+    height: 200px;
+}
+.photofram {
+    width: 400px;
+    height: 200px;
+    border: 10px solid darkgreen;
+    border-radius: 5px;
+    position: relative;
+    margin: 12px;
+}
+.paragraph {
+    height: 200px;
+    position: absolute;
+    display: none;
+    top: 0;
+}
+.photofram:hover .paragraph {
+    display: block;
+   
+    background-color: rgba(222, 184, 135, 0.5);
+}
+.photofram:hover .paragraph h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.photoalbum {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
