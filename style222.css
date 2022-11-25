@@ -28,10 +28,13 @@ a{
     color: crimson;
 }
 .search-bar{
-    margin-left: 650px;
+    width: 300px;
+    margin-left: 500px;
     margin-top: 12px;
     margin-bottom: 12px;
     border-radius: 10px;
+    padding: 12px;
+    
 }
 
 
