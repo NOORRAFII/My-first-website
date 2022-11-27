@@ -1,1 +1,2 @@
-console.log('hello world');
+var bananaPrice = "mark zuckerburg";
+console.log(typeof bananaPrice)

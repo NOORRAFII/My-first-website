@@ -23,10 +23,14 @@ body {
 }
 .barstyle{
     text-decoration: none;
-    color: black;
+    color: crimson;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: baseline;
+    transition: font-size 1s;
+}
+.barstyle:hover{
+    font-size: 45px;
 }
 .search-bar{
     width: 300px;
@@ -51,13 +55,23 @@ body {
     padding-bottom: 10px;
     border-radius: 10px;
     margin-top: 5px;
+    background-color: crimson;
+    transition: width 1s;
+}
+.search-button:hover{
+    width: 110px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 10px;
 }
 .search-button-style{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    color: white;
     
 }
+
 
 
 
