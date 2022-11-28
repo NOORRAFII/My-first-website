@@ -5,7 +5,7 @@ body {
 .back{
     width: 96%;
     height: 100px;
-    margin-top: 34px;
+    margin-top: 35px;
     margin-left: 39px;
     background-color: aliceblue;
     border: 1px solid rgb(255, 251, 252);
@@ -14,29 +14,32 @@ body {
 }
 .baroption{
     display: flex;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .bar{
-    margin-left: 30px;
-    
-    
+    margin-left: 45px;
+
+
 }
 .barstyle{
     text-decoration: none;
     color: crimson;
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: baseline;
+    font-family: Arial, Helvetica, sans-serif;
     transition: font-size 1s;
+    align-items: baseline;
 }
 .barstyle:hover{
     font-size: 45px;
+    color: black;
+    transition: .4s;
+    
 }
 .search-bar{
     width: 300px;
     margin-left: 500px;
     margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     border-radius: 20px;
     padding: 12px;
     font-size: large;
@@ -54,22 +57,20 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 1px;
     background-color: crimson;
-    transition: width 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform .4s;
 }
 .search-button:hover{
-    width: 110px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-right: 10px;
+    transform: scale(1.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search-button-style{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: white;
-    
 }
 
 
